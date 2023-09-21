@@ -1,0 +1,139 @@
+.Banner {
+    width: 100%;
+    height: 830px;
+}
+
+
+
+.BannerSlice-container {
+    width: 100%;
+    height: 450px;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+
+.Banner-img {
+    width: 950px;
+    height: 100%;
+    
+}
+
+.Banner-img img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+}
+
+
+.Banner-text {
+    width: 950px;
+    height: 100%;
+    padding: 20px;
+    background-color: #53354a;
+}
+
+.text-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.slice-text {
+    width: 500px;
+    text-align: left;
+    
+}
+
+.slice-text > h1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+
+.slice-text > span {
+    margin-bottom:  10px;
+    text-align: left;
+    font-weight: 800;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+
+.btn-bubble  {
+    margin-top: 30px;
+    display: flex;
+   
+
+}
+
+.dots{
+    
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #755d6e;
+    margin: 5px 3px;
+}
+
+
+.dots > a {
+    display: inline-block;
+}
+
+.active, .dots:hover {
+    background-color: #ffff;
+  }
+  
+
+
+  /* Download-page */
+
+  .download-page {
+    width: 100%;
+    height: 370px;
+  }
+
+  .download-container {
+    width: 1170px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    border: red;
+    margin: 0 auto;
+  }
+
+  .download-title {
+    line-height: 2.5;
+  }
+
+  .download-title > h1 {
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    
+  }
+
+  .download-title > span {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+
+
+ 

@@ -1,0 +1,65 @@
+.Person-Card  {
+    width: 270px;
+    height: 580px;
+
+}
+
+.Person-Card img {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+}
+
+.card-header {
+    margin: 32px 0;
+    line-height: 1.5;
+}
+
+.card-header > h3 {
+    font-size: 25px;
+}
+
+.card-header > span {
+    margin-top: 2px;
+    text-transform: uppercase;
+    color: red;
+}
+.card-info {
+    line-height: 1.5;
+    font-size: 15px;
+    color: #898e94;
+}
+
+.card-footer {
+    display: flex;
+
+    margin-top: 32px;
+}
+
+.card-footer a {
+    width: 43px;
+    height: 42px;
+    margin: 0 5px;
+    border: 2px solid #e8ecee;
+    text-decoration: none;
+}
+
+.card-footer i {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: #c6cacc;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card-footer a:hover {
+    background: red;
+    border: none;
+    transition: all .5s ease-in-out;
+}
+
+.card-footer a:hover .fa {
+    color: #fff;
+}

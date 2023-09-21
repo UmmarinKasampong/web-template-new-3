@@ -1,0 +1,142 @@
+footer {
+    width: 100%;
+    height: 350px;
+
+}
+
+
+.bg-top {
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    background-color: #3a3e64;
+}
+
+.bg-buttom {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #313454;
+}
+
+
+
+/* *************** Top info ************************** */
+
+
+.container-top {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.location-info {
+    width: 350px;
+    text-align: center;
+}
+
+.location-info > h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
+
+.location-info > p {
+    line-height: 1.5;
+    color: #9d9fb2;
+ 
+    font-size: 16px;
+}
+
+.share-info {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.share-info > h4 {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.share-logo {
+    display: flex;
+    
+}
+
+.share-logo a {
+    width: 40px;
+    height: 40px;
+    
+    background: transparent;
+    border: 2px solid #fff;
+    text-decoration: none;
+    margin: 30px 10px;
+}
+
+.share-logo i {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+.about {
+    width: 350px;
+   text-align: center;
+
+}
+
+.about > h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.about-text {
+    line-height: 1.5;
+    font-size: 16px;
+    color: #9d9fb2;
+   
+}
+
+
+/* Hover */
+
+.share-logo a:hover {
+    background: red;
+    color: #fff;
+    border: none;
+
+}
+
+
+/* *************** Button info ************************** */
+
+.container-buttom {
+    width: 1170px;
+    height: 100%;
+
+    margin: 0 auto;
+     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #515266;
+    font-size: 16px;
+}
+
+
