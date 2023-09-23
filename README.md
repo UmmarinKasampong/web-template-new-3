@@ -11,11 +11,11 @@ This WebSite I use templete idea from free website templete I write code follow 
 
 
 
-## Libary
+## Lang and framework
 
-**lang:** html, css and js
+**Lang:** html, css and js
 
-**Libary:** Vite
+**Framework:** Vite
 
 
 ## Preview
